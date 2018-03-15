@@ -7,15 +7,48 @@
     <meta name="author" content="Alex Scheitlin">
     <meta name="description" content="Password Validator">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
+    <script type="text/javascript" src="config.js"></script>
     <script type="text/javascript" src="js/password_validation.js"></script>
+    <script type="text/javascript" src="js/password.js"></script>
 </head>
 
 <body>
     <h1>Password:</h1>
     <input id="password" type="password" />
 
-    <button id="submit">Submit</button>
+    <div class="prerequisite-list">
+        <p id="info"></p>
+
+        <div id="lowerCase">
+            <span class="sign"></span>
+            <span class="description"></span>
+        </div>
+
+        <div id="upperCase">
+            <span class="sign"></span>
+            <span class="description"></span>
+        </div>
+
+        <div id="number">
+            <span class="sign"></span>
+            <span class="description"></span>
+        </div>
+
+        <div id="symbol">
+            <span class="sign"></span>
+            <span class="description"></span>
+        </div>
+
+        <div id="minLength">
+            <span class="sign"></span>
+            <span class="description"></span>
+        </div>
+    </div>
+
+    <button id="submit" disabled>Submit</button>
+
+    <script>loadPrerequisites()</script>
 </body>
 
 </html>
