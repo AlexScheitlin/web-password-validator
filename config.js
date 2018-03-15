@@ -9,3 +9,6 @@ var prerequisites = {
     symbol: "At least one symbol [!@#^&*()+_,.{}[]?-]",
     minLength: "Minimum 6 characters",
 };
+
+var cross_sign = "&#10008;"; // ✔, \2718
+var tick_sign = "&#10004;";  // ✘, \2714
