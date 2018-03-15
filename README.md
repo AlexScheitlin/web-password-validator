@@ -1,6 +1,8 @@
 # Password Validator
 
-> A live password validator with html and js
+> A live password validator with html and js 
+
+![tool preview](assets/password.gif "Preview")
 
 ## Contributing
 
